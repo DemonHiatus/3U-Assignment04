@@ -29,18 +29,18 @@ public class Question6 {
         double weekend = input.nextDouble();
         
         // storing Plan A 
-        double planA = (day - 100) * 0.25;
-        if (planA < 0){
+        double planA = (day - 100) * .25;
+        if (planA < 0) {
             planA = 0;
         }
-        double alpha = planA + (eve * 0.15) + (weekend * 0.20);
+        double alpha = planA + (eve * .15) + (weekend * .20);
         
         // storing Plan B
-        double planB = (day - 250) * 0.45;
-        if (planB < 0){
+        double planB = (day - 250) * .45;
+        if (planB < 0) {
             planB = 0;
         }
-        double beta = planB + (eve * 0.35) + (weekend * 0.25);
+        double beta = planB + (eve * .35) + (weekend * .25);
         
         alpha = Math.round(alpha * 100) / 100;
         beta = Math.round(beta * 100) / 100;
