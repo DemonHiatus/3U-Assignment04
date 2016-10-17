@@ -47,7 +47,7 @@ public class Question8 {
             } else {
                 System.out.println("You are now on the square" + location + ".");
                 
-                // snakes and ladders hiss
+                // snakes eating
                 if(location == 54){
                     location = 19;
                     System.out.println("You've been eaten by the snakes! You've descended to square 19.");
@@ -58,6 +58,7 @@ public class Question8 {
                     location = 77;
                     System.out.println("You've been eaten by the nsakes! So Close! You've descended to square 77");
                 }
+                // ladders 
                 if (location == 9){
                     location = 34;
                     System.out.println("You've climbed a ladder! Now go up to square 34.");
