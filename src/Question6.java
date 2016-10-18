@@ -41,8 +41,8 @@ public class Question6 {
         }
         double beta = planB + (eve * .35) + (weekend * .25);
 
-        alpha = Math.round(alpha * 100) / 100;
-        beta = Math.round(beta * 100) / 100;
+        alpha = Math.round(alpha * 100) / 100.0;
+        beta = Math.round(beta * 100) / 100.0;
 
         // output of which one is cheaper
         System.out.println("Plan A cost $" + alpha + ".");
