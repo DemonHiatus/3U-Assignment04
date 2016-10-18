@@ -23,7 +23,7 @@ public class Question1 {
         System.out.println("please enter your name");
         // get the name from the user 
         String name = input.nextLine();
-        // say hello
+        // say Hello
         System.out.println("Hello " + name + ". How are you today?");
     }
 }

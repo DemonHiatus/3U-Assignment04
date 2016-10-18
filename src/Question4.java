@@ -33,7 +33,7 @@ public class Question4 {
         // Ask the user how much does it cost for staff
         System.out.println("How much does it cost for staff?");
         double staff = input.nextDouble();
-        // ASsk the user how much the miscellaneous cost
+        // Ask the user how much the miscellaneous cost
         System.out.println("How much for miscellaneous cost?");
         double other = input.nextDouble();
 

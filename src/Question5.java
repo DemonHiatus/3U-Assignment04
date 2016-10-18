@@ -19,7 +19,7 @@ public class Question5 {
         Scanner input = new Scanner(System.in);
         String name;
 
-        // ask for users name
+        // Ask for users name
         System.out.println("Please enter your name");
         name = input.nextLine();
 

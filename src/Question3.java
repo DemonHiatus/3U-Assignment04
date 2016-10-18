@@ -19,7 +19,7 @@ public class Question3 {
         Scanner input = new Scanner(System.in);
         String num;
 
-        // ask user for their numbers, and store it
+        // Ask user for their numbers, and store it
         System.out.println("Please enter 4 numbers on seperate lines.");
         double first = input.nextDouble();
         double second = input.nextDouble();
