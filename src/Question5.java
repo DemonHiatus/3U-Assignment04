@@ -58,7 +58,7 @@ public class Question5 {
         double five = input.nextDouble();
         double fifth = (double) (five / chemistry * 100);
 
-        // output all test scores iin order
+        // output all test scores in order
         System.out.println("Test score for " + name + "are the folliwing:");
         System.out.println("math:" + first + "%");
         System.out.println("biology" + second + "%");

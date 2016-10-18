@@ -23,7 +23,7 @@ public class Question2 {
         double inch = input.nextDouble();
         double cm = (double) (inch * 2.54);
 
-        // output the converstion
+        // output the conversion
         System.out.println(inch + " inches is the same measurement as " + cm + " cm.");
         System.out.println("You did it!");
 

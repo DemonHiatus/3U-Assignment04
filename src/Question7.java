@@ -16,6 +16,7 @@ public class Question7 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        // create the input for the user 
         Scanner input = new Scanner(System.in);
 
         // user input for the speed limit and the users speed 
