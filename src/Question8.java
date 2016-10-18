@@ -29,7 +29,7 @@ public class Question8 {
             if (location > 100) {
                 System.out.println("Sorry, you exceeded 100 squares. You are now at the 80th square.");
                 if (location >= 100) {
-                    location = 80;
+                    location = 91;
                 }
             }
             if (location == 100) {
