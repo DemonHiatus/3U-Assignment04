@@ -41,6 +41,6 @@ public class Question4 {
         double ticket = (double) ((food + dj + hall + decoration + staff + other) / 35);
         
         // tell the user how much everyrhing cost and how many tickets the user needs to sell to break even
-        System.out.println("Your total cost is $" + Math.ceil(cost) + ". You will need to sell " + Math.ceil(ticket) + "tickets to break even.");
+        System.out.println("Your total cost is $" + cost + ". You will need to sell " + Math.ceil(ticket) + "tickets to break even.");
     }
 }
