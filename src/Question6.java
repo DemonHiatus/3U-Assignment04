@@ -16,14 +16,18 @@ public class Question6 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-
+        // create the input for the user 
         Scanner input = new Scanner(System.in);
+        
+        // ask user the number of daytime minutes
         System.out.println("Number of daytime minutes?");
         double day = input.nextDouble();
-
+        
+        // ask user the number of evening minutes
         System.out.println("Number of evening minutes?");
         double eve = input.nextDouble();
-
+        
+        // ask user the number of weekend minutes
         System.out.println("Number of weekend minutes?");
         double weekend = input.nextDouble();
 
@@ -40,7 +44,8 @@ public class Question6 {
             planB = 0;
         }
         double beta = planB + (eve * .35) + (weekend * .25);
-
+        
+        // rounding off result
         alpha = Math.round(alpha * 100) / 100.0;
         beta = Math.round(beta * 100) / 100.0;
 

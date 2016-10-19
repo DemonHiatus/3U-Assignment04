@@ -25,17 +25,18 @@ public class Question8 {
             int dice = input.nextInt();
             location = location + dice;
 
-            // Exceeding/ equal/ invalid numbers
+            // Exceeding invalid numbers
             if (location > 100) {
                 System.out.println("Sorry, you exceeded 100 squares. You are now at the 80th square.");
                 if (location >= 100) {
                     location = 91;
                 }
             }
+            // when user wins and gets to the 100th square
             if (location == 100) {
                 System.out.println("Congratulations! You won!");
                 break;
-            }
+            }// if user doesn't input a number from 2 to 12 user quits.
             if (dice < 2) {
                 System.out.println("Your input is incorrect. Try again next turn.");
                 location = location - dice;
@@ -48,7 +49,7 @@ public class Question8 {
             } else {
                 System.out.println("You are now on the square" + location + ".");
 
-                // snakes eating
+                // if the user is eaten by a snake go down to said square
                 if (location == 54) {
                     location = 19;
                     System.out.println("You've been eaten by the snakes! You've descended to square 19.");
@@ -59,7 +60,7 @@ public class Question8 {
                     location = 77;
                     System.out.println("You've been eaten by the nsakes! So Close! You've descended to square 77");
                 }
-                // ladders 
+                // if user finds a ladder go up the ladders
                 if (location == 9) {
                     location = 34;
                     System.out.println("You've climbed a ladder! Now go up to square 34.");

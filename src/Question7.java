@@ -27,19 +27,19 @@ public class Question7 {
 
         int answer = speed - limit;
 
-        // user not speeding
+        // if user is not speeding
         if (answer <= 0) {
             System.out.println("You are within the speed limit!");
 
-        } // user is speeding fined $100
+        }// user is speeding fined $100
         else if (1 <= answer && answer <= 20) {
             System.out.println("You are speeding. Your fine is $100");
 
-        } // user is speeding fined $270
+        }// user is speeding fined $270
         else if (21 <= answer && answer <= 30) {
             System.out.println("You are speeding. Your fine is $270");
 
-        } // user is speeding fined $500
+        }// user is speeding fined $500
         else if (answer <= 31) {
             System.out.println("You are speeding. Your fine is $500");
         }
