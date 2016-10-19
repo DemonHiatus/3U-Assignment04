@@ -19,15 +19,15 @@ public class Question6 {
         // create the input for the user 
         Scanner input = new Scanner(System.in);
         
-        // ask user the number of daytime minutes
+        // ask user the number of daytime minutes he/she uses
         System.out.println("Number of daytime minutes?");
         double day = input.nextDouble();
         
-        // ask user the number of evening minutes
+        // ask user the number of evening minutes he/she uses
         System.out.println("Number of evening minutes?");
         double eve = input.nextDouble();
         
-        // ask user the number of weekend minutes
+        // ask user the number of weekend minutes he/she  uses
         System.out.println("Number of weekend minutes?");
         double weekend = input.nextDouble();
 

@@ -32,11 +32,11 @@ public class Question8 {
                     location = 91;
                 }
             }
-            // when user wins and gets to the 100th square
+            // congratulate the user when he wins
             if (location == 100) {
                 System.out.println("Congratulations! You won!");
                 break;
-            }// if user doesn't input a number from 2 to 12 user quits.
+            }// if user doesn't input a number from 2 to 12 the user quits
             if (dice < 2) {
                 System.out.println("Your input is incorrect. Try again next turn.");
                 location = location - dice;
@@ -60,7 +60,7 @@ public class Question8 {
                     location = 77;
                     System.out.println("You've been eaten by the nsakes! So Close! You've descended to square 77");
                 }
-                // if user finds a ladder go up the ladders
+                // if user finds a ladder go up the ladders and go to said square
                 if (location == 9) {
                     location = 34;
                     System.out.println("You've climbed a ladder! Now go up to square 34.");
